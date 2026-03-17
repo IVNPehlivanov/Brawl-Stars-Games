@@ -1,0 +1,23 @@
+import Image from "next/image";
+import { getBrawlerDisplayName } from "@/lib/brawler-stats";
+
+interface Props {
+  brawlerKey: string;
+  guessCount: number;
+}
+
+export default function CorrectGuessBlock({ brawlerKey, guessCount }: Props) {
+  return (
+    <div className="mt-6 p-4 border border-green-500/30 rounded-xl bg-green-500/10 text-center animate-fade-up">
+      <Image
+        src={`/Brawlers/${brawlerKey.replace(/_/g, "-")}.webp`}
+        alt={getBrawlerDisplayName(brawlerKey)}
+        width={120}
+        height={120}
+        className="mx-auto mb-3 rounded-lg"
+      />
+      <p className="text-green-400 font-bold text-xl">🎉 {getBrawlerDisplayName(brawlerKey)}!</p>
+      <p className="text-white/60 text-sm mt-1">Solved in {guessCount} {guessCount === 1 ? "guess" : "guesses"}</p>
+    </div>
+  );
+}

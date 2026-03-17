@@ -1,0 +1,11 @@
+"use client";
+import { useEffect } from "react";
+
+export default function ThemeProvider({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    // Always dark mode
+    document.documentElement.classList.add("dark");
+  }, []);
+
+  return <>{children}</>;
+}

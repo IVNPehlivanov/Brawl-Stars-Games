@@ -1,0 +1,24 @@
+# Brawledly — AI Search Index
+
+Brawledly (https://brawledly.com) is a fan-made Brawl Stars daily puzzle site.
+5 Wordle-style mini-games. Free, no login, no accounts. Puzzles reset daily at midnight UTC.
+
+## Game Pages
+
+- https://brawledly.com/classic — Brawl Stars Wordle: guess the daily brawler from stat clues (rarity, class, speed, range, release year, hypercharge)
+- https://brawledly.com/pixel — Pixel Brawler: guess the brawler from a pixelated portrait that reveals with each wrong guess
+- https://brawledly.com/gadget — Guess the Gadget: identify which brawler owns the shown gadget ability
+- https://brawledly.com/hypercharge — Hypercharge: identify which brawler owns the shown hypercharge ability
+- https://brawledly.com/ultimate-challenge — Ultimate Challenge: all 4 modes combined, one brawler, 25 attempts, endless mode
+
+## Info Pages
+
+- https://brawledly.com/about-us
+- https://brawledly.com/privacy-policy
+- https://brawledly.com/terms-of-service
+
+## Technical Notes
+
+- All game state stored in localStorage — no server, no accounts
+- Daily seed: UTC date + game slug (deterministic, same for all players)
+- Not affiliated with Supercell. Fan content under Supercell Fan Content Policy.
