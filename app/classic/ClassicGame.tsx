@@ -10,6 +10,7 @@ import {
   compareOrdered,
   RARITY_ORDER,
   SPEED_ORDER,
+  RELOAD_ORDER,
 } from "@/lib/brawler-stats";
 import {
   getDailySecretFromPool,
@@ -35,10 +36,10 @@ interface PersistedState {
 const ATTRIBUTE_LABELS: Record<keyof ClassicGuessAttributes, string> = {
   rarity: "Rarity",
   class: "Class",
-  speed: "Speed",
+  speed: "Movement",
   attackRange: "Range",
+  reload: "Reload",
   releaseYear: "Year",
-  hasHypercharge: "Hypercharge",
 };
 
 function Cell({ attr }: { attr: AttributeResult }) {
@@ -108,12 +109,12 @@ export default function ClassicGame({ dayKey, onSolved }: Props) {
     if (!guess || !secret) { setError("Brawler not found."); return; }
 
     const attributes: ClassicGuessAttributes = {
-      rarity:       { value: guess.rarity,        result: compareOrdered(guess.rarity, secret.rarity, RARITY_ORDER) },
-      class:        { value: guess.class,          result: guess.class === secret.class ? "correct" : "wrong" },
-      speed:        { value: guess.speed,          result: compareOrdered(guess.speed, secret.speed, SPEED_ORDER) },
-      attackRange:  { value: guess.attackRange,    result: guess.attackRange === secret.attackRange ? "correct" : "wrong" },
-      releaseYear:  { value: guess.releaseYear,    result: guess.releaseYear === secret.releaseYear ? "correct" : guess.releaseYear > secret.releaseYear ? "higher" : "lower" },
-      hasHypercharge:{ value: guess.hasHypercharge,result: guess.hasHypercharge === secret.hasHypercharge ? "correct" : "wrong" },
+      rarity:      { value: guess.rarity,      result: compareOrdered(guess.rarity, secret.rarity, RARITY_ORDER) },
+      class:       { value: guess.class,       result: guess.class === secret.class ? "correct" : "wrong" },
+      speed:       { value: guess.speed,       result: compareOrdered(guess.speed, secret.speed, SPEED_ORDER) },
+      attackRange: { value: guess.attackRange, result: guess.attackRange === secret.attackRange ? "correct" : "wrong" },
+      reload:      { value: guess.reload,      result: compareOrdered(guess.reload, secret.reload, RELOAD_ORDER) },
+      releaseYear: { value: guess.releaseYear, result: guess.releaseYear === secret.releaseYear ? "correct" : guess.releaseYear > secret.releaseYear ? "higher" : "lower" },
     };
 
     const newGuess: ClassicGuess = { brawlerKey: key, brawlerName: getBrawlerDisplayName(key), attributes };
@@ -166,7 +167,7 @@ export default function ClassicGame({ dayKey, onSolved }: Props) {
                     className="w-full text-left px-3 py-2 text-sm hover:bg-white/10 text-white flex items-center gap-2"
                     onClick={() => submitGuess(k)}
                   >
-                    <Image src={`/Brawlers/${k.replace(/_/g, "-")}.webp`} alt="" width={24} height={24} className="rounded" />
+                    <Image src={`/Brawlers/${k.replace(/_/g, "-")}.png`} alt="" width={24} height={24} className="rounded" />
                     {getBrawlerDisplayName(k)}
                   </button>
                 </li>
@@ -201,7 +202,7 @@ export default function ClassicGame({ dayKey, onSolved }: Props) {
           {guesses.map((g, i) => (
             <div key={g.brawlerKey} className={`grid grid-cols-8 gap-1 items-center animate-wrong-in`} style={{ animationDelay: `${i * 30}ms` }}>
               <div className="col-span-2 flex items-center gap-1.5 text-xs">
-                <Image src={`/Brawlers/${g.brawlerKey.replace(/_/g, "-")}.webp`} alt="" width={28} height={28} className="rounded shrink-0" />
+                <Image src={`/Brawlers/${g.brawlerKey.replace(/_/g, "-")}.png`} alt="" width={28} height={28} className="rounded shrink-0" />
                 <span className="truncate text-white/80">{g.brawlerName}</span>
               </div>
               {(Object.keys(ATTRIBUTE_LABELS) as (keyof ClassicGuessAttributes)[]).map((k) => (

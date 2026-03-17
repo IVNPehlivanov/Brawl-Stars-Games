@@ -11,8 +11,8 @@ export interface ClassicGuessAttributes {
   class: AttributeResult;
   speed: AttributeResult;
   attackRange: AttributeResult;
+  reload: AttributeResult;
   releaseYear: AttributeResult;
-  hasHypercharge: AttributeResult;
 }
 
 export interface ClassicGuess {

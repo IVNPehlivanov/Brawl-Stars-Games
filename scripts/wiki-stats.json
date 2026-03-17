@@ -1,0 +1,1315 @@
+{
+  "alli": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Slow",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)1001 (while enraged)1155 (while enraged; with Hypercharge)4000 (dash)0–3000 (jump)0–3600 (jump; while enraged)",
+      "rangeRaw": "2.33 (dash; Short)3.33 (jump; Short)2.67 (dash; while enraged) 4 (jump; while enraged)",
+      "reloadRaw": "2.1 seconds (dash; Slow)2.8 seconds (jump; Very Slow)1.68 seconds (dash; with You Better Run, You Better Take Cover)2.24 seconds (jump; with You Better Run, You Better Take Cover)",
+      "releaseDateRaw": "26/06/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/9/9e/Alli-Hypercharge.png/revision/latest?cb=20251028134156"
+    }
+  },
+  "amber": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)820 (with Fire Starters)964 (with Fire Starters and Hypercharge)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "0.22 seconds (8.8 seconds max; Very Fast)0.187 seconds (7.48 seconds max; with Reload Gear)0.146 seconds (5.86 seconds max; with Scorchin' Siphon)0.124 seconds (4.96 seconds max; with Scorchin' Siphon and Reload Gear)",
+      "releaseDateRaw": "22/10/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/56/Amber-Hypercharge.png/revision/latest?cb=20250425095935"
+    }
+  },
+  "angelo": {
+    "speed": "Very Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)1025 (with Flow)1189 (with Flow and Hypercharge)2000 (with Stinging Flight)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "0.1 seconds (Very Fast)",
+      "releaseDateRaw": "29/02/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/11/Angelo-Hypercharge.png/revision/latest?cb=20240626173349"
+    }
+  },
+  "ash": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)770 (Fast; half Rage)820 (Very Fast, full Rage)864 (with Hypercharge)924 (half Rage and with Hypercharge) 984 (full Rage and with Hypercharge)",
+      "rangeRaw": "4.67 (Normal)",
+      "reloadRaw": "1.4 seconds (Fast)1 second (with full Rage and Mad As Heck)",
+      "releaseDateRaw": "25/08/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/4/4c/Ash-Hypercharge.png/revision/latest?cb=20241214023002"
+    }
+  },
+  "barley": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "03/07/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/1f/Barley-Hypercharge.png/revision/latest?cb=20240626173409"
+    }
+  },
+  "bea": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "0.9 seconds (Very Fast)",
+      "releaseDateRaw": "18/12/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/8/87/Bea-Hypercharge.png/revision/latest?cb=20250225181609"
+    }
+  },
+  "belle": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "1.4 seconds (Fast)1.19 seconds (with Reload Gear)",
+      "releaseDateRaw": "12/04/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/34/Belle-Hypercharge.png/revision/latest?cb=20240228113117"
+    }
+  },
+  "berry": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Slow",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)3000 (with Super)",
+      "rangeRaw": "6.33 (Normal)",
+      "reloadRaw": "2.4 seconds (Very Slow)1.6 seconds (With Floor is Fine; Normal)",
+      "releaseDateRaw": "25/06/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/ac/Berry-Hypercharge.png/revision/latest?cb=20241214022938"
+    }
+  },
+  "bibi": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)920 (with Home Run)1117 (with Home Run and Hypercharge)",
+      "rangeRaw": "3.67 (Short)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": "21/05/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b9/Bibi-Hypercharge.png/revision/latest?cb=20240228112857"
+    }
+  },
+  "bo": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "1.7 seconds (Normal)",
+      "releaseDateRaw": "22/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b6/Bo-Hypercharge.png/revision/latest?cb=20250225181609"
+    }
+  },
+  "bonnie": {
+    "speed": "Slow",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "620 (Clyde; Slow)744 (Clyde; with Hypercharge)806 (with Sugar Rush)930 (with Sugar Rush and Hypercharge)0–1833 (with Super)0–2500 (with Super and Black Powder)820 (Bonnie; Very Fast)1025 (Bonnie; with Hypercharge)2000 (with Crash Test)",
+      "rangeRaw": "9 (Clyde; Long) 5 (Bonnie; Normal)",
+      "reloadRaw": "1 second (Clyde; Very Fast)0.769 seconds (with Sugar Rush)2 seconds (Bonnie; Slow)",
+      "releaseDateRaw": "05/06/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/04/Bonnie-Hypercharge.png/revision/latest?cb=20250626191037"
+    }
+  },
+  "brock": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "2.1 seconds (Slow)1.785 seconds (with Reload Gear)",
+      "releaseDateRaw": "03/07/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/30/Brock-Hypercharge.png/revision/latest?cb=20240425234823"
+    }
+  },
+  "bull": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2000 (with Super)",
+      "rangeRaw": "5.33 (Normal)4.67 (with Hyper Buffie)",
+      "reloadRaw": "1.6 seconds (Normal)0.8 seconds (with Berserker)",
+      "releaseDateRaw": "16/08/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/a9/Bull-Hypercharge.png/revision/latest?cb=20230908113805"
+    }
+  },
+  "buster": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "770 (Fast)620 (while Super is active)924 (with Hypercharge)",
+      "rangeRaw": "5.33 (Normal)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "31/10/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6d/Buster-Hypercharge.png/revision/latest?cb=20250324103003"
+    }
+  },
+  "buzz": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)4500 (with Super)",
+      "rangeRaw": "2.67 (Short)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "16/06/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/22/Buzz-Hypercharge.png/revision/latest?cb=20240228113034"
+    }
+  },
+  "byron": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)900 (with Hypercharge)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "1.45 seconds (Fast)",
+      "releaseDateRaw": "16/12/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/01/Byron-Hypercharge.png/revision/latest?cb=20250902105327"
+    }
+  },
+  "carl": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": null,
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)1440 (with Super)3000 (with Flying Hook)3312 (with Flying Hook and Power Throw)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": null,
+      "releaseDateRaw": "22/03/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/79/Carl-Hypercharge.png/revision/latest?cb=20250225181609"
+    }
+  },
+  "charlie": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": null,
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": null,
+      "releaseDateRaw": "30/10/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/39/Charlie-Hypercharge.png/revision/latest?cb=20231031195732"
+    }
+  },
+  "chester": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "770 (Fast)920 (with Candy Beans)955 (with Hypercharge)1105 (with Candy Beans and Hypercharge)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "1.9 seconds (Normal)0.633 seconds (with Candy Beans)",
+      "releaseDateRaw": "12/12/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/50/Chester-Hypercharge.png/revision/latest?cb=20250324103017"
+    }
+  },
+  "chuck": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Slow",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)3700 (with Super)",
+      "rangeRaw": "6.67 (Normal)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "11/10/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/9/90/Chuck-Hypercharge.png/revision/latest?cb=20250626191044"
+    }
+  },
+  "clancy": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "720 (Normal)820 (Stage 3; Very Fast)864 (with Hypercharge)984 (Stage 3; with Hypercharge)3000 (with Tactical Retreat)",
+      "rangeRaw": "7.67 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "23/07/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/ba/Clancy-Hypercharge.png/revision/latest?cb=20250425095955"
+    }
+  },
+  "colette": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)4000 (with Super)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "1.6 seconds (Normal)",
+      "releaseDateRaw": "11/09/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/f3/Colette-Hypercharge.png/revision/latest?cb=20231031195344"
+    }
+  },
+  "colt": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)814 (with Slick Boots)864 (with Hypercharge)958 (with Slick Boots and Hypercharge)",
+      "rangeRaw": "9 (Long)10 (with Magnum Special)",
+      "reloadRaw": "1.3 seconds (Very Fast)",
+      "releaseDateRaw": "16/08/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/74/Colt-Hypercharge.png/revision/latest?cb=20230908113823"
+    }
+  },
+  "cordelius": {
+    "speed": "Very Fast",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)  902 (with Super)  984 (with Hypercharge)  1066 (with Super and Hypercharge)",
+      "rangeRaw": "5.33 (Normal)",
+      "reloadRaw": "1.2 seconds (Very Fast)0.96 seconds (with Super)",
+      "releaseDateRaw": "27/06/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6b/Cordelius-Hypercharge.png/revision/latest?cb=20240228113243"
+    }
+  },
+  "crow": {
+    "speed": "Very Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)0–2600 (with Super)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "1.4 seconds (Fast)",
+      "releaseDateRaw": "16/08/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/16/Crow-Hypercharge.png/revision/latest?cb=20231212180929"
+    }
+  },
+  "darryl": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2400 (with Super)",
+      "rangeRaw": "6 (Normal)",
+      "reloadRaw": "1.8 seconds (Normal)0.9 seconds (with Rolling Reload)",
+      "releaseDateRaw": "07/12/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/8/86/Darryl-Hypercharge.png/revision/latest?cb=20241104203401"
+    }
+  },
+  "doug": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Normal",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "3.33 (Short)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "25/07/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/26/Doug-Hypercharge.png/revision/latest?cb=20250626191049"
+    }
+  },
+  "draco": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "720 (Normal)828 (with Super)864 (with Hypercharge)972 (with Super and Hypercharge)",
+      "rangeRaw": "4 (Normal)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "30/05/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/62/Draco-Hypercharge.png/revision/latest?cb=20250626191305"
+    }
+  },
+  "dynamike": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "770 (Fast)920 (with Fidget Spinner)924 (with Hypercharge)1074 (with Fidget Spinner and Hypercharge)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "1.6 seconds (Normal)",
+      "releaseDateRaw": "20/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/df/Dynamike-Hypercharge.png/revision/latest?cb=20231212181145"
+    }
+  },
+  "edgar": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)0–2333 (with Super)1020 (after Super)984 (with Hypercharge)1184 (after Super with Hypercharge)",
+      "rangeRaw": "2 (Short)",
+      "reloadRaw": "0.7 seconds (Very Fast)0.467 seconds (with Hypercharge)",
+      "releaseDateRaw": "19/12/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/f8/Edgar-Hypercharge.png/revision/latest?cb=20231212180951"
+    }
+  },
+  "eight_bit": {
+    "speed": "Slow",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "580 (Very Slow)700 (with Hypercharge)720 (with Plugged In)871 (with Plugged In and Hypercharge)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "1.5 seconds (Normal)1.275 seconds (with Reload Gear)",
+      "releaseDateRaw": "29/08/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/0d/8-Bit-Hypercharge.png/revision/latest?cb=20241104203025"
+    }
+  },
+  "el_primo": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)970 (with Meteor Rush)1163 (with Meteor Rush and Hypercharge)1600 (with Super)",
+      "rangeRaw": "3 (Short)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": "03/07/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b3/El_Primo-Hypercharge.png/revision/latest?cb=20240228113006"
+    }
+  },
+  "emz": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Slow",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "6.67 (Normal)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "23/10/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/fe/Emz-Hypercharge.png/revision/latest?cb=20240626173427"
+    }
+  },
+  "eve": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9.33 (Very Long)",
+      "reloadRaw": "1.6 seconds (Normal)  1.36 seconds (with Reload Gear)",
+      "releaseDateRaw": "05/03/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c3/Eve-Hypercharge.png/revision/latest?cb=20241213225452"
+    }
+  },
+  "fang": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)4000 (with Super)",
+      "rangeRaw": "2.67 (kick; Short)9.33 (shoe; Very Long)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "10/01/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/24/Fang-Hypercharge.png/revision/latest?cb=20231212181017"
+    }
+  },
+  "finx": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "8.33 (middle; Long)",
+      "reloadRaw": "1.3 seconds (Very Fast)",
+      "releaseDateRaw": "27/02/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/0a/Finx-Hypercharge.png/revision/latest?cb=20250902105352"
+    }
+  },
+  "frank": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": 2018,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "6 (Normal)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": "21/05/18",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/7e/Frank-Hypercharge.png/revision/latest?cb=20240626173450"
+    }
+  },
+  "gale": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "1.2 seconds (Very Fast)",
+      "releaseDateRaw": "13/05/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6e/Gale-Hypercharge.png/revision/latest?cb=20240626173327"
+    }
+  },
+  "gene": {
+    "speed": "Normal",
+    "attackRange": "Short",
+    "reload": "Slow",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "5.67 (close range; Normal)11.33 (max range; Very long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "15/02/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/d1/Gene-Hypercharge.png/revision/latest?cb=20240425234801"
+    }
+  },
+  "gigi": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)",
+      "rangeRaw": "2.33 (Short)",
+      "reloadRaw": "0.22 seconds (1.76 seconds max; Very Fast)",
+      "releaseDateRaw": "20/11/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/f8/Gigi-Hypercharge.png/revision/latest?cb=20251219150340"
+    }
+  },
+  "glowy": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2026,
+    "_raw": {
+      "speedRaw": "770 (Fast)2300 (with Slippery Savior)",
+      "rangeRaw": "8 (Long)",
+      "reloadRaw": "1.7 seconds (Normal)",
+      "releaseDateRaw": "22/01/26",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/ed/Glowy-Hypercharge.png/revision/latest?cb=20260224205822"
+    }
+  },
+  "gray": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.4 seconds (Fast)",
+      "releaseDateRaw": "12/12/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6a/Gray-Hypercharge.png/revision/latest?cb=20241214022819"
+    }
+  },
+  "griff": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "1.7 seconds (Normal)1.445 seconds (with Reload Gear)",
+      "releaseDateRaw": "23/07/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/8/80/Griff-Hypercharge.png/revision/latest?cb=20250425100015"
+    }
+  },
+  "grom": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)830 (With Foot Patrol; Very Fast)964 (with Foot Patrol and Hypercharge)",
+      "rangeRaw": "7.67 (Long)11 (walkie talkie shells)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "21/12/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/d5/Grom-Hypercharge.png/revision/latest?cb=20250324102836"
+    }
+  },
+  "gus": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9.33 (Very Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "19/09/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/17/Gus-Hypercharge.png/revision/latest?cb=20250425100040"
+    }
+  },
+  "hank": {
+    "speed": "Normal",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)792 (with It's Gonna Blow)864 (with Hypercharge)924 (with It's Gonna Blow and Hypercharge)",
+      "rangeRaw": "1.67 (min. range) 3.33 (max. range)",
+      "reloadRaw": "0.25 seconds (Very Fast)",
+      "releaseDateRaw": "05/06/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/3d/Hank-Hypercharge.png/revision/latest?cb=20250225181609"
+    }
+  },
+  "jacky": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Normal",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)965 (with Pneumatic Booster)1119 (with Pneumatic Booster and Hypercharge)",
+      "rangeRaw": "3.33 (Short)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "17/03/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/eb/Jacky-Hypercharge.png/revision/latest?cb=20230908114825"
+    }
+  },
+  "jae_yong": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with slipstream)1001 (with Super)924 (with Hypercharge)1078 (with Hypercharged Super)1232 (with Hypercharged Super and Hypercharge)847 (with one ally and The Crowd Goes Mild)924 (with two allies and The Crowd Goes Mild)1001 (with three allies and The Crowd Goes Mild)1078 (with four allies and The Crowd Goes Mild)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "24/04/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/57/Jae-yong-Hypercharge.png/revision/latest?cb=20250902105418"
+    }
+  },
+  "janet": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)1400 (with Super)1680 (with Hypercharged Super)",
+      "rangeRaw": "4 (min range; Normal)8.33 (max range; Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "27/04/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/27/Janet-Hypercharge.png/revision/latest?cb=20241214022839"
+    }
+  },
+  "jessie": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "20/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/1e/Jessie-Hypercharge.png/revision/latest?cb=20231031195304"
+    }
+  },
+  "juju": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "720 (Normal)1008 (on water; with Elementalist)864 (with Hypercharge)1152 (with Hypercharge and on water; with Elementalist)",
+      "rangeRaw": "6.33 (Normal)9 (in bushes; Long)9 (with Voodoo Chile; Long)",
+      "reloadRaw": "1.6 seconds (Normal)2 seconds (while Voodoo Chile is active)",
+      "releaseDateRaw": "29/10/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/03/Juju-Hypercharge.png/revision/latest?cb=20250902105443"
+    }
+  },
+  "kaze": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "820 (geisha; Very Fast)2700 (geisha; with attack)3000 (geisha; with Hensojutsu)984 (geisha; with Hypercharge)720 (ninja; Normal)4000 (ninja; with Super)936 (ninja; with Gracious Host)864 (ninja; with Hypercharge)5200 (ninja; with Hypercharged Super)",
+      "rangeRaw": "2.67 (Short)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "28/05/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/fa/Kaze-Hypercharge.png/revision/latest?cb=20250425100108"
+    }
+  },
+  "kenji": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)2700 (with attack)8000 (with Super)",
+      "rangeRaw": "2.67 (dash; Short)3.67 (slash; Short)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "26/09/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/d0/Kenji-Hypercharge.png/revision/latest?cb=20250425100124"
+    }
+  },
+  "kit": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)0–4000 (with Super; jumping)2000 (with Super; detaching)",
+      "rangeRaw": "3.67 (Short) 7.33 (attached; Long)10 (attached; with Hypercharge)",
+      "reloadRaw": "0.8 seconds (Very Fast)2 seconds (attached; Slow)",
+      "releaseDateRaw": "28/12/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/30/Kit-Hypercharge.png/revision/latest?cb=20250626191314"
+    }
+  },
+  "larry_and_lawrie": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge) 3000 (with Order: Fall Back)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "2.2 seconds (Very Slow)",
+      "releaseDateRaw": "25/01/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/ab/Larry_%26_Lawrie-Hypercharge.png/revision/latest?cb=20250902105619"
+    }
+  },
+  "leon": {
+    "speed": "Very Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2018,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)1017 (with Hypercharge)1070 (with Smoke Trails)1267 (with Smoke Trails and Hypercharge)",
+      "rangeRaw": "9.67 (Very Long)",
+      "reloadRaw": "1.9 seconds (Normal)",
+      "releaseDateRaw": "05/12/18",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/1/12/Leon-Hypercharge.png/revision/latest?cb=20231212181118"
+    }
+  },
+  "lily": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)943 (with Vigilance)1107 (with Vigilance and Hypercharge)",
+      "rangeRaw": "2 (Short)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": "24/04/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/7e/Lily-Hypercharge.png/revision/latest?cb=20250425100202"
+    }
+  },
+  "lola": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.7 seconds (Normal)1.445 seconds (with Reload Gear)",
+      "releaseDateRaw": "28/10/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/f9/Lola-Hypercharge.png/revision/latest?cb=20250324103035"
+    }
+  },
+  "lou": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9.33 (Very Long)",
+      "reloadRaw": "1.1 seconds (Very Fast)",
+      "releaseDateRaw": "23/11/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c7/Lou-Hypercharge.png/revision/latest?cb=20231031195444"
+    }
+  },
+  "lumi": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": null,
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8 (Long)",
+      "reloadRaw": null,
+      "releaseDateRaw": "27/03/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/3a/Lumi-Hypercharge.png/revision/latest?cb=20250626191529"
+    }
+  },
+  "maisie": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)3000 (with Disengage!)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "25/04/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/dc/Maisie-Hypercharge.png/revision/latest?cb=20231031195525"
+    }
+  },
+  "mandy": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long) 12 (Focused)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "26/12/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/78/Mandy-Hypercharge.png/revision/latest?cb=20250225181609"
+    }
+  },
+  "max": {
+    "speed": "Very Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)1120 (with Super)1208 (with Super and Hypercharge)1167 (with Hypercharged Super)2400 (with Phase Shifter)",
+      "rangeRaw": "8.33 (Long)",
+      "reloadRaw": "1.3 seconds (Very Fast)1.1 seconds (with Run n' Gun)",
+      "releaseDateRaw": "18/12/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/09/Max-Hypercharge.png/revision/latest?cb=20240425234744"
+    }
+  },
+  "meeple": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7.67 (Long)",
+      "reloadRaw": "1.7 seconds (Normal) 1.417 seconds (with Rule Bending)2 seconds (while Mansions of Meeple is active)1.667 seconds (with Rule Bending and while Mansions of Meeple is active)",
+      "releaseDateRaw": "02/01/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c0/Meeple-Hypercharge.png/revision/latest?cb=20250902105504"
+    }
+  },
+  "meg": {
+    "speed": "Very Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)720 (Mecha; Normal)864 (Mecha; with Hypercharge)",
+      "rangeRaw": "9 (Long)7.33 (Mecha; Long)",
+      "reloadRaw": "1.3 seconds (Very Fast)0.845 seconds (with Toolbox)1.1 seconds (Mecha; Very Fast)0.715 seconds (Mecha; with Toolbox)",
+      "releaseDateRaw": "28/09/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/0a/Meg-Hypercharge.png/revision/latest?cb=20250324103058"
+    }
+  },
+  "melodie": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "720 (Normal)763 (with Fast Beats and one monster note)806 (with Fast Beats and two monster notes)850 (with Fast Beats and three monster notes)893 (with Fast Beats and four monster notes)864 (with Hypercharge)936 (with Fast Beats and five monster notes)907 (with Hypercharge, Fast Beats and one monster note)979 (with Fast Beats and six monster notes)950 (with Hypercharge, Fast Beats and two monster notes)993 (with Hypercharge, Fast Beats, and three monster notes)1036 (with Hypercharge, Fast Beats, and four monster notes)1079 (with Hypercharge, Fast Beats, and five monster notes)1122 (with Hypercharge, Fast Beats, and six monster notes)3700 (with Super)",
+      "rangeRaw": "8 (Long)2.17 (monster notes)3.47 (monster notes; with Perfect Pitch)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "27/03/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/a3/Melodie-Hypercharge.png/revision/latest?cb=20241210192337"
+    }
+  },
+  "mico": {
+    "speed": "Very Fast",
+    "attackRange": "Mid",
+    "reload": "Slow",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)0–2080 (with attack)0–2773 (with attack and Presto)1025 (with Super)984 (with Hypercharge)",
+      "rangeRaw": "4 (Normal)5.33 (with Presto)",
+      "reloadRaw": "2.4 seconds (Very Slow)",
+      "releaseDateRaw": "14/12/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/09/Mico-Hypercharge.png/revision/latest?cb=20231212181228"
+    }
+  },
+  "mina": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2500 (dash)",
+      "rangeRaw": "8 (first sequence; Long)6 (second sequence; Normal)4.67 (third sequence; Normal)",
+      "reloadRaw": "1.4 seconds (Fast)",
+      "releaseDateRaw": "17/09/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/52/Mina-Hypercharge.png/revision/latest?cb=20251028134214"
+    }
+  },
+  "moe": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2500 (with Super)5000 (with Hypercharged Super)900 (Driller; Very Fast)1080 (Driller; while attacking)1100 (Driller; with Speeding Ticket)1300 (Driller; while attacking with Speeding Ticket)1480 (Driller; while attacking with Speeding Ticket and with Hypercharge)2000 (with Rat Race)",
+      "rangeRaw": "7.67 (Long)7 (with Skipping Stones)1.67 (Driller; Short)3.33 (Driller; with Hypercharge)",
+      "reloadRaw": "1.5 seconds (Normal)0.22 seconds (Very Fast; Driller)",
+      "releaseDateRaw": "27/08/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/23/Moe-Hypercharge.png/revision/latest?cb=20250626191542"
+    }
+  },
+  "mortis": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)2700 (dash)",
+      "rangeRaw": "2.67 (Short)4.67 (with dash bar charged)",
+      "reloadRaw": "2.4 seconds (Very Slow)",
+      "releaseDateRaw": "22/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c2/Mortis-Hypercharge.png/revision/latest?cb=20240829221402"
+    }
+  },
+  "mr_p": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7 (Long)10.33 (after bounce)",
+      "reloadRaw": "1.6 seconds (Normal)",
+      "releaseDateRaw": "23/01/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/ad/Mr._P-Hypercharge.png/revision/latest?cb=20250225181608"
+    }
+  },
+  "najia": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": null,
+    "_raw": {
+      "speedRaw": "770 (Fast)",
+      "rangeRaw": "5.33 (jar; Normal)6 (snake; Normal)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": null,
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/75/Hypercharge_Unleashed.png/revision/latest?cb=20251125121320"
+    }
+  },
+  "nani": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.67 (Long)11.67 (after convergence)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "29/05/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/51/Nani-Hypercharge.png/revision/latest?cb=20240829221427"
+    }
+  },
+  "nita": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "6 (Normal)",
+      "reloadRaw": "1.1 seconds (Very Fast)",
+      "releaseDateRaw": "20/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/59/Nita-Hypercharge.png/revision/latest?cb=20240425234728"
+    }
+  },
+  "ollie": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2300 (with Super)1283 (with Regulate)930 (with Kick, Push)1084 (with Kick, Push and Hypercharge)4000 (with Hypercharged Super)",
+      "rangeRaw": "6.33 (Normal)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "30/01/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6e/Ollie-Hypercharge.png/revision/latest?cb=20250902105526"
+    }
+  },
+  "otis": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "29/06/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/d/dc/Otis-Hypercharge.png/revision/latest?cb=20241104203541"
+    }
+  },
+  "pam": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.3 seconds (Very Fast)",
+      "releaseDateRaw": "04/09/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/8/89/Pam-Hypercharge.png/revision/latest?cb=20251028134227"
+    }
+  },
+  "pearl": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "05/09/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/34/Pearl-Hypercharge.png/revision/latest?cb=20230908114802"
+    }
+  },
+  "penny": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2018,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "21/05/18",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/4/4d/Penny-Hypercharge.png/revision/latest?cb=20241104202811"
+    }
+  },
+  "pierce": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "720 (Normal)828 (with Slip 'n Snipe)",
+      "rangeRaw": "10 (Very Long)",
+      "reloadRaw": "3 seconds (full ammo bar; Very Slow)",
+      "releaseDateRaw": "18/12/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/e4/Pierce-Hypercharge.png/revision/latest?cb=20260224205845"
+    }
+  },
+  "piper": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)0–1300 (with Super)0–2167 (with Hypercharged Super)",
+      "rangeRaw": "10 (Very Long)11.67 (with Homemade Recipe)",
+      "reloadRaw": "2.3 seconds (Very Slow)",
+      "releaseDateRaw": "03/07/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b8/Piper-Hypercharge.png/revision/latest?cb=20240626173236"
+    }
+  },
+  "poco": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7 (Long)",
+      "reloadRaw": "1.6 seconds (Normal)",
+      "releaseDateRaw": "20/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/4/4a/Poco-Hypercharge.png/revision/latest?cb=20240829221449"
+    }
+  },
+  "r_t": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)820 (split)984 (split; with Hypercharge)",
+      "rangeRaw": "10 (Very Long) 3.33 (split; Short)",
+      "reloadRaw": "1.5 seconds (Normal)1.8 seconds (split; Normal)",
+      "releaseDateRaw": "28/02/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/08/R-T-Hypercharge.png/revision/latest?cb=20250626191549"
+    }
+  },
+  "rico": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)863 (with Hypercharge)970 (with Robo Retreat)1157 (with Robo Retreat and Hypercharge)",
+      "rangeRaw": "9.67 (Very Long)",
+      "reloadRaw": "1.2 seconds (Very Fast)1.02 seconds (with Reload Gear)",
+      "releaseDateRaw": "20/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/ef/Rico-Hypercharge.png/revision/latest?cb=20240626173306"
+    }
+  },
+  "rosa": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "3.67 (Short)",
+      "reloadRaw": "1 second (Very Fast)",
+      "releaseDateRaw": "19/04/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/5/55/Rosa-Hypercharge.png/revision/latest?cb=20231031195154"
+    }
+  },
+  "ruffs": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Fast",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "9 (Long)",
+      "reloadRaw": "1.4 seconds (Fast)",
+      "releaseDateRaw": "01/02/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/f/f1/Ruffs-Hypercharge.png/revision/latest?cb=20241104203733"
+    }
+  },
+  "sam": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Normal",
+    "releaseYear": 2022,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)963 (after throwing Knuckle Busters; Very Fast)1117 (after throwing Knuckle Busters with Hypercharge)",
+      "rangeRaw": "3 (Short)",
+      "reloadRaw": "1.6 seconds (with Knuckle Busters; Normal) 0.9 seconds (without Knuckle Busters; Very Fast)",
+      "releaseDateRaw": "31/08/22",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/6/6f/Sam-Hypercharge.png/revision/latest?cb=20250324103122"
+    }
+  },
+  "sandy": {
+    "speed": "Fast",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "770 (Fast)963 (with Hypercharge)1117 (with Hypercharge and Super)",
+      "rangeRaw": "6 (Normal)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "18/09/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/a5/Sandy-Hypercharge.png/revision/latest?cb=20240425234854"
+    }
+  },
+  "shade": {
+    "speed": "Very Fast",
+    "attackRange": "Short",
+    "reload": "Fast",
+    "releaseYear": 2024,
+    "_raw": {
+      "speedRaw": "820 (Very Fast)984 (with Hypercharge)3000 (Super dash)1066 (with Super)1230 (with Super and Hypercharge)943 (with Spooky Speedster)1107 (with Spooky Speedster and Hypercharge)",
+      "rangeRaw": "3.67 (Short)5.33 (with Longarms)",
+      "reloadRaw": "0.8 seconds (Very Fast)",
+      "releaseDateRaw": "28/11/24",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/2/22/Shade-Hypercharge.png/revision/latest?cb=20250626191554"
+    }
+  },
+  "shelly": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)2400 (with Fast Forward)",
+      "rangeRaw": "7.67 (Long)10 (with Clay Pigeons)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "16/08/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/ea/Shelly-Hypercharge.png/revision/latest?cb=20240830000355"
+    }
+  },
+  "sirius": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2026,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "1.6 seconds (Normal)",
+      "releaseDateRaw": "25/02/26",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/3/31/Sirius-Hypercharge.png/revision/latest?cb=20260223221638"
+    }
+  },
+  "spike": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7.67 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "27/06/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/7/72/Spike-Hypercharge.png/revision/latest?cb=20230908113908"
+    }
+  },
+  "sprout": {
+    "speed": "Normal",
+    "attackRange": "Mid",
+    "reload": "Normal",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "5 (throw; Normal)8.33 (after landing; Long)",
+      "reloadRaw": "1.7 seconds (Normal)",
+      "releaseDateRaw": "03/04/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/e/e9/Sprout-Hypercharge.png/revision/latest?cb=20240228113207"
+    }
+  },
+  "squeak": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7.67 (Long)15.33 (with Windup; Very Long)",
+      "reloadRaw": "2.1 seconds (Slow)",
+      "releaseDateRaw": "13/05/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/0/02/Squeak-Hypercharge.png/revision/latest?cb=20240829221514"
+    }
+  },
+  "stu": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2021,
+    "_raw": {
+      "speedRaw": "720 (Normal)820 (with Speed Zone)864 (with Hypercharge)964 (with Speed Zone and Hypercharge)3000 (with Super)",
+      "rangeRaw": "7.67 (Long)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "15/03/21",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/bd/Stu-Hypercharge.png/revision/latest?cb=20241104203209"
+    }
+  },
+  "surge": {
+    "speed": "Slow",
+    "attackRange": "Mid",
+    "reload": "Slow",
+    "releaseYear": 2020,
+    "_raw": {
+      "speedRaw": "650 (Slow)780 (with Hypercharge)820 (stage 1+; Very Fast)984 (stage 4; with Hypercharge)0–1333 (with Super)",
+      "rangeRaw": "6.67 (Normal)8.67 (stage 2+; Long)10.67 (stage 4; with Hypercharge)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "06/07/20",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/a/a3/Surge-Hypercharge.png/revision/latest?cb=20240829221540"
+    }
+  },
+  "tara": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2017,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "04/09/17",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/4/4b/Tara-Hypercharge.png/revision/latest?cb=20240829221613"
+    }
+  },
+  "tick": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2019,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "8.67 (Long)",
+      "reloadRaw": "2.4 seconds (Very Slow)2.18 seconds (with Automa-Tick Reload)",
+      "releaseDateRaw": "26/06/19",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/9/9d/Tick-Hypercharge.png/revision/latest?cb=20240425234836"
+    }
+  },
+  "trunk": {
+    "speed": "Fast",
+    "attackRange": "Short",
+    "reload": "Normal",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)963 (with ants)924 (with Hypercharge)1046 (with ants and Hypercharge)2400 (with Super)",
+      "rangeRaw": "3.33 (Short)",
+      "reloadRaw": "1.5 seconds (Normal)",
+      "releaseDateRaw": "21/08/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c9/Trunk-Hypercharge.png/revision/latest?cb=20250902105550"
+    }
+  },
+  "willow": {
+    "speed": "Normal",
+    "attackRange": "Long",
+    "reload": "Slow",
+    "releaseYear": 2023,
+    "_raw": {
+      "speedRaw": "720 (Normal)864 (with Hypercharge)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "2 seconds (Slow)",
+      "releaseDateRaw": "28/03/23",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/c/c5/Willow-Hypercharge.png/revision/latest?cb=20250425100217"
+    }
+  },
+  "ziggy": {
+    "speed": "Fast",
+    "attackRange": "Long",
+    "reload": "Normal",
+    "releaseYear": 2025,
+    "_raw": {
+      "speedRaw": "770 (Fast)924 (with Hypercharge)",
+      "rangeRaw": "7.33 (Long)",
+      "reloadRaw": "1.8 seconds (Normal)",
+      "releaseDateRaw": "17/10/25",
+      "hyperchargeIconUrl": "https://static.wikia.nocookie.net/brawlstars/images/b/b3/Ziggy-Hypercharge.png/revision/latest?cb=20251028134243"
+    }
+  }
+}

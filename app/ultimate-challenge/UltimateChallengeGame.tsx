@@ -10,9 +10,9 @@ import {
   compareOrdered,
   RARITY_ORDER,
   SPEED_ORDER,
+  RELOAD_ORDER,
 } from "@/lib/brawler-stats";
 import { GADGET_POOL } from "@/lib/brawler-gadgets";
-import { HYPERCHARGE_POOL } from "@/lib/brawler-hypercharges";
 import type { ClassicGuess, ClassicGuessAttributes, AttributeResult } from "@/types/game";
 import Image from "next/image";
 
@@ -40,7 +40,7 @@ function buildInitialState(): UCState {
   const brawlerKeys = getBrawlerKeys();
   // Pick a brawler that has gadget + hypercharge entries for all 4 modes
   const eligible = brawlerKeys.filter(
-    (k) => GADGET_POOL.some((g) => g.brawlerKey === k) && HYPERCHARGE_POOL.some((h) => h.brawlerKey === k)
+    (k) => GADGET_POOL.some((g) => g.brawlerKey === k) && BRAWLER_STATS[k]?.hyperchargeName !== null
   );
   const secretKey = eligible.length > 0 ? pickRandom(eligible) : pickRandom(brawlerKeys);
   return {
@@ -59,10 +59,10 @@ function buildInitialState(): UCState {
 const ATTRIBUTE_LABELS: Record<keyof ClassicGuessAttributes, string> = {
   rarity: "Rarity",
   class: "Class",
-  speed: "Speed",
+  speed: "Movement",
   attackRange: "Range",
+  reload: "Reload",
   releaseYear: "Year",
-  hasHypercharge: "HC",
 };
 
 function Cell({ attr }: { attr: AttributeResult }) {
@@ -91,7 +91,10 @@ export default function UltimateChallengeGame() {
 
   const brawlerKeys = getBrawlerKeys();
   const gadgetEntry = GADGET_POOL.find((g) => g.brawlerKey === state.secretKey);
-  const hyperchargeEntry = HYPERCHARGE_POOL.find((h) => h.brawlerKey === state.secretKey);
+  const secretStats = BRAWLER_STATS[state.secretKey];
+  const hyperchargeEntry = secretStats?.hyperchargeName
+    ? { brawlerKey: state.secretKey, hyperchargeName: secretStats.hyperchargeName, hyperchargeDescription: secretStats.hyperchargeDescription ?? "" }
+    : null;
   const blurAmount = Math.max(0, 40 - state.pixelGuesses.length * 8);
 
   const handleInput = useCallback((val: string) => {
@@ -122,12 +125,12 @@ export default function UltimateChallengeGame() {
         const guess = BRAWLER_STATS[key];
         if (guess && secret) {
           const attributes: ClassicGuessAttributes = {
-            rarity:        { value: guess.rarity,         result: compareOrdered(guess.rarity, secret.rarity, RARITY_ORDER) },
-            class:         { value: guess.class,           result: guess.class === secret.class ? "correct" : "wrong" },
-            speed:         { value: guess.speed,           result: compareOrdered(guess.speed, secret.speed, SPEED_ORDER) },
-            attackRange:   { value: guess.attackRange,     result: guess.attackRange === secret.attackRange ? "correct" : "wrong" },
-            releaseYear:   { value: guess.releaseYear,     result: guess.releaseYear === secret.releaseYear ? "correct" : guess.releaseYear > secret.releaseYear ? "higher" : "lower" },
-            hasHypercharge:{ value: guess.hasHypercharge,  result: guess.hasHypercharge === secret.hasHypercharge ? "correct" : "wrong" },
+            rarity:      { value: guess.rarity,      result: compareOrdered(guess.rarity, secret.rarity, RARITY_ORDER) },
+            class:       { value: guess.class,       result: guess.class === secret.class ? "correct" : "wrong" },
+            speed:       { value: guess.speed,       result: compareOrdered(guess.speed, secret.speed, SPEED_ORDER) },
+            attackRange: { value: guess.attackRange, result: guess.attackRange === secret.attackRange ? "correct" : "wrong" },
+            reload:      { value: guess.reload,      result: compareOrdered(guess.reload, secret.reload, RELOAD_ORDER) },
+            releaseYear: { value: guess.releaseYear, result: guess.releaseYear === secret.releaseYear ? "correct" : guess.releaseYear > secret.releaseYear ? "higher" : "lower" },
           };
           classicGuesses = [{ brawlerKey: key, brawlerName: getBrawlerDisplayName(key), attributes }, ...prev.classicGuesses];
           if (isCorrect && !newSolvedModes.includes("classic")) newSolvedModes.push("classic");

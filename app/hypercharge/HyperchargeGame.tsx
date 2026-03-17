@@ -1,8 +1,15 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import confetti from "canvas-confetti";
-import { getBrawlerKeys, getBrawlerDisplayName, brawlerMatchesSearch, findExactMatchKey } from "@/lib/brawler-stats";
-import { HYPERCHARGE_POOL } from "@/lib/brawler-hypercharges";
+import { BRAWLER_STATS, getBrawlerKeys, getBrawlerDisplayName, brawlerMatchesSearch, findExactMatchKey } from "@/lib/brawler-stats";
+
+const HYPERCHARGE_POOL = Object.entries(BRAWLER_STATS)
+  .filter(([, v]) => v.hyperchargeName !== null)
+  .map(([brawlerKey, v]) => ({
+    brawlerKey,
+    hyperchargeName: v.hyperchargeName as string,
+    hyperchargeDescription: v.hyperchargeDescription ?? "",
+  }));
 import { getDailySecretFromPool, markPlayedToday, setPersistedGameState, getPersistedGameState } from "@/lib/daily";
 import NextModeLink from "@/components/NextModeLink";
 import Image from "next/image";
