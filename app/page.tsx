@@ -13,13 +13,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main className="relative min-h-screen flex flex-col items-center overflow-x-hidden">
-      {/* Hero background */}
-      <div
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/homepage/background.webp')" }}
-      />
-      <div className="fixed inset-0 bg-black/60" />
-
       {/* Content */}
       <div className="relative z-10 w-full">
         <Header isHome />

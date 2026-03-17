@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
-import Link from "next/link";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Brawledly",
@@ -10,11 +10,10 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main className="max-w-2xl mx-auto px-4 py-12 text-white">
-      <div className="mb-6">
-        <Link href="/" className="text-white/50 hover:text-white text-sm transition-colors">← All Games</Link>
-      </div>
-      <h1 className="text-3xl font-bold mb-2 text-yellow-400 font-brawl">Privacy Policy</h1>
+    <div className="min-h-screen bg-gray-950">
+      <main className="max-w-2xl mx-auto px-4 py-12 text-white">
+        <Header />
+      <h1 className="text-3xl font-bold mb-2 text-yellow-400 font-title">Privacy Policy</h1>
       <p className="text-white/40 text-sm mb-8">Last updated: March 2026</p>
 
       <div className="space-y-6 text-white/70 leading-relaxed text-sm">
@@ -72,6 +71,7 @@ export default function PrivacyPage() {
           </p>
         </section>
       </div>
-    </main>
+      </main>
+    </div>
   );
 }

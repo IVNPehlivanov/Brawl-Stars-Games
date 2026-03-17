@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
-import Link from "next/link";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "About Brawledly | Fan-Made Brawl Stars Wordle Games",
@@ -10,11 +10,10 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="max-w-2xl mx-auto px-4 py-12 text-white">
-      <div className="mb-6">
-        <Link href="/" className="text-white/50 hover:text-white text-sm transition-colors">← All Games</Link>
-      </div>
-      <h1 className="text-3xl font-bold mb-4 text-yellow-400 font-brawl">About Brawledly</h1>
+    <div className="min-h-screen bg-gray-950">
+      <main className="max-w-2xl mx-auto px-4 py-12 text-white">
+        <Header />
+      <h1 className="text-3xl font-bold mb-4 text-yellow-400 font-title">About Brawledly</h1>
       <div className="space-y-4 text-white/70 leading-relaxed">
         <p>
           Brawledly is a fan-made Brawl Stars daily puzzle site. We are not affiliated with, endorsed by, or connected to Supercell in any way.
@@ -42,6 +41,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-    </main>
+      </main>
+    </div>
   );
 }
