@@ -25,13 +25,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        <link rel="preload" href="/fonts/BrawlStars.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
+        <link rel="preload" href="/Fonts/LilitaOne-Regular.ttf" as="font" type="font/ttf" crossOrigin="anonymous" />
         <link rel="preload" href="/Background/Background.webp" as="image" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white min-h-screen`}>
         <ConditionalBackground />
-        {children}
-        <Footer />
+        {/* Full-width column so main + footer share the same layout width (fixes global left shift) */}
+        <div className="relative z-10 flex min-h-screen w-full min-w-0 max-w-full flex-col items-stretch">
+          {children}
+          <Footer />
+        </div>
         <Analytics />
         <SpeedInsights />
       </body>

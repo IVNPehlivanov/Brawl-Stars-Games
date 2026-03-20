@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
+/* Self-hosted display font from public/Fonts/ (Brawl Stars–style branding) */
 @font-face {
   font-family: "Brawl Stars";
-  src: url("/fonts/BrawlStars.ttf") format("truetype");
+  src: url("/Fonts/LilitaOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -41,8 +42,28 @@
 .animate-wrong-glow { animation: wrong-glow 0.6s ease-out; }
 .animate-fade-up { animation: fade-up 0.4s ease-out; }
 
-html { scrollbar-color: #9ca3af #e5e7eb; scrollbar-gutter: stable; }
+/*
+ * stable = reserve space for the vertical scrollbar so centered layouts match the visible area.
+ */
+html {
+  scrollbar-color: #9ca3af #e5e7eb;
+  scrollbar-gutter: stable;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: clip;
+}
 html.dark { scrollbar-color: #4b5563 #111827; }
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  overflow-x: clip;
+}
 
 /* Hover card effect */
 .bs-hover {

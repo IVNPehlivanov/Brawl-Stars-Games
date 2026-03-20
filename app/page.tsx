@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE, GAME_META } from "@/lib/content";
+import { SITE } from "@/lib/content";
 import HomeInfographic from "@/components/HomeInfographic";
 import Header from "@/components/Header";
 
@@ -12,19 +12,16 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="relative min-h-screen flex flex-col items-center overflow-x-hidden">
-      {/* Content */}
-      <div className="relative z-10 w-full">
+    <main className="relative flex min-h-screen w-full min-w-0 max-w-full flex-col items-stretch overflow-x-hidden">
+      {/* Content — stretch full width; center pieces inside where needed */}
+      <div className="relative z-10 w-full min-w-0 max-w-full">
         <Header isHome />
         <section className="flex flex-col items-center justify-center pt-20 pb-10 px-4 text-center">
           <h1 className="font-brawl text-5xl md:text-7xl homepage-text-shadow text-yellow-400 mb-3">
             Brawledly
           </h1>
-          <p className="text-lg md:text-2xl text-white/90 homepage-text-shadow max-w-xl">
+          <p className="font-brawl text-lg md:text-2xl text-white/90 homepage-text-shadow max-w-xl">
             Daily Brawl Stars Wordle Games
-          </p>
-          <p className="mt-2 text-sm text-white/60">
-            {GAME_META.filter((g) => g.mode === "daily").length} daily games · resets at midnight UTC
           </p>
         </section>
         <HomeInfographic />

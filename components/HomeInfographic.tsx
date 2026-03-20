@@ -2,13 +2,26 @@
 import Link from "next/link";
 import { GAME_META } from "@/lib/content";
 
-const CENTER = { x: 300, y: 300 };
-const RADIUS = 200;
-const NODE_R = 60;
+/** Larger canvas so full-size tiles don’t clip */
+const VIEW = 1000;
+const CENTER = { x: VIEW / 2, y: VIEW / 2 };
+/** Orbit radius — spaced for 240×240 tiles */
+const RADIUS = 300;
+/** Center + game logos share the same size (SVG units) */
+const TILE_SIZE = 240;
 const ANGLES = [270, 342, 54, 126, 198]; // degrees, clockwise from top
 
-function toLogoPath(slug: string): string {
-  return `/Game-Logos/${slug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join("-")}.webp`;
+/** Home infographic tiles — files in /public/Logos/ (Ultimate uses file spelling "Challange") */
+const LOGO_BY_SLUG: Record<string, string> = {
+  classic: "/Logos/Classic.webp",
+  pixel: "/Logos/Pixel.webp",
+  gadget: "/Logos/Gadget.webp",
+  hypercharge: "/Logos/Hypercharge.webp",
+  "ultimate-challenge": "/Logos/Ultimate-Challange.webp",
+};
+
+function homeLogoPath(slug: string): string {
+  return LOGO_BY_SLUG[slug] ?? `/Logos/Classic.webp`;
 }
 
 export default function HomeInfographic() {
@@ -23,30 +36,38 @@ export default function HomeInfographic() {
 
   return (
     <section className="w-full flex justify-center py-8 px-4">
-      <svg viewBox="0 0 600 600" className="w-full max-w-lg" aria-label="Game modes">
-        {/* Connector lines */}
-        {nodes.map((n) => {
-          const dx = n.x - CENTER.x;
-          const dy = n.y - CENTER.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          const ex = CENTER.x + (dx / dist) * NODE_R;
-          const ey = CENTER.y + (dy / dist) * NODE_R;
-          return (
-            <line key={n.slug} x1={ex} y1={ey} x2={n.x} y2={n.y}
-              stroke="rgba(251,191,36,0.3)" strokeWidth="1.5" />
-          );
-        })}
-        {/* Center node */}
-        <circle cx={CENTER.x} cy={CENTER.y} r={NODE_R} fill="rgba(251,191,36,0.15)" stroke="rgba(251,191,36,0.5)" strokeWidth="2" />
-        <text x={CENTER.x} y={CENTER.y + 6} textAnchor="middle" fill="#fbbf24" fontSize="13" fontWeight="bold">BRAWLEDLY</text>
+      <svg viewBox={`0 0 ${VIEW} ${VIEW}`} className="w-full max-w-2xl" aria-label="Game modes">
+        {/* Center logo */}
+        <image
+          href="/Logos/Logo.webp"
+          x={CENTER.x - TILE_SIZE / 2}
+          y={CENTER.y - TILE_SIZE / 2}
+          width={TILE_SIZE}
+          height={TILE_SIZE}
+          preserveAspectRatio="xMidYMid meet"
+          aria-hidden
+        />
         {/* Game nodes */}
         {nodes.map((n) => (
-          <Link key={n.slug} href={`/${n.slug}`}>
-            <circle cx={n.x} cy={n.y} r={NODE_R} fill="rgba(30,30,50,0.9)" stroke="rgba(251,191,36,0.6)" strokeWidth="2"
-              className="cursor-pointer hover:stroke-yellow-400 transition-all" />
-            <image href={toLogoPath(n.slug)}
-              x={n.x - 24} y={n.y - 24} width="48" height="48" />
-            <text x={n.x} y={n.y + NODE_R + 16} textAnchor="middle" fill="white" fontSize="10">{n.title}</text>
+          <Link key={n.slug} href={`/${n.slug}`} className="cursor-pointer">
+            <image
+              href={homeLogoPath(n.slug)}
+              x={n.x - TILE_SIZE / 2}
+              y={n.y - TILE_SIZE / 2}
+              width={TILE_SIZE}
+              height={TILE_SIZE}
+              preserveAspectRatio="xMidYMid meet"
+            />
+            <text
+              x={n.x}
+              y={n.y + TILE_SIZE / 2 + 22}
+              textAnchor="middle"
+              fill="white"
+              fontSize="18"
+              className="font-brawl"
+            >
+              {n.title}
+            </text>
           </Link>
         ))}
       </svg>

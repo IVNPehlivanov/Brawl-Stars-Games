@@ -90,5 +90,6 @@ brawl-puzzle/
 3. Critical SEO: og:image, GameSchema on all pages, llms.txt
 
 ## Completed Tasks
+- [x] HomeInfographic: game tile logos match center logo size (shared dimensions + SVG scale)
 - [x] Initial scaffold created (BRAWL_SCAFFOLD.md)
 - [x] All project files created from scaffold spec

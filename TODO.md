@@ -4,7 +4,7 @@
 - [ ] Add og:image (public/og/defaultogimage.webp — 1200×630px)
 - [ ] Add 5 game logos to public/Game-Logos/ (Classic, Pixel, Gadget, Hypercharge, Ultimate-Challenge)
 - [ ] Add brawler portraits to public/Brawlers/ (one WebP per brawler)
-- [ ] Add BrawlStars.ttf to public/fonts/
+- [x] Self-hosted display font in public/Fonts/ (wired in globals.css)
 - [ ] Add hero background to public/homepage/background.webp
 
 ## High Priority — Content Data
@@ -31,6 +31,8 @@
 - [ ] Sound game — guess brawler from their in-game sound (if audio assets available)
 
 ## Completed
+- [x] HomeInfographic: game tiles same size as center logo (shared TILE_SIZE + layout)
+- [x] Hero display font loaded from public/Fonts/ (Brawl Stars CSS family + homepage tagline uses font-brawl)
 - [x] Initial scaffold created (BRAWL_SCAFFOLD.md)
 - [x] All project files created from scaffold spec
 - [x] FAQ sections added to all game pages (SSR in page.tsx)
