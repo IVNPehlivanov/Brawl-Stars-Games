@@ -4,13 +4,13 @@
  * the rest of the app's daily puzzle logic.
  */
 
-const STORAGE_KEY = "brawledly_streak";
-const IDB_NAME = "brawledly_streak_db";
+const STORAGE_KEY = "brawldly_streak";
+const IDB_NAME = "brawldly_streak_db";
 const IDB_STORE = "streak";
 const IDB_VERSION = 1;
-const COOKIE_NAME = "brawledly_streak";
+const COOKIE_NAME = "brawldly_streak";
 const COOKIE_MAX_AGE_DAYS = 365;
-const SIGNATURE_SALT = "brawledly_streak_v1";
+const SIGNATURE_SALT = "brawldly_streak_v1";
 
 export interface StreakRecord {
   streak: number;
@@ -200,7 +200,7 @@ function writeCookie(record: StreakRecord): void {
 }
 
 // --- Cache API ---
-const CACHE_NAME = "brawledly_streak_v1";
+const CACHE_NAME = "brawldly_streak_v1";
 const CACHE_KEY = "/.streak-data";
 
 async function readCache(): Promise<StreakRecord | null> {

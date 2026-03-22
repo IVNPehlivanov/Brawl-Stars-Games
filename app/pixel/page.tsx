@@ -10,15 +10,15 @@ import Link from "next/link";
 const SLUG = "pixel";
 
 export const metadata: Metadata = {
-  title: "Pixel Brawler | Guess from the Pixelated Portrait | Brawledly",
+  title: "Pixel Brawler | Guess from the Pixelated Portrait | Brawldly",
   description: "Identify the daily Brawl Stars brawler from a pixelated portrait. Each wrong guess reveals a clearer image. Free, no login.",
-  keywords: ["brawl stars pixel game", "guess brawler image", "brawledly pixel"],
+  keywords: ["brawl stars pixel game", "guess brawler image", "brawldly pixel"],
   alternates: { canonical: `${SITE.url}/${SLUG}` },
   openGraph: {
-    title: "Pixel Brawler | Brawledly",
+    title: "Pixel Brawler | Brawldly",
     description: "Identify the brawler from a pixelated portrait. Each wrong guess reveals more.",
     url: `${SITE.url}/${SLUG}`,
-    siteName: "Brawledly",
+    siteName: "Brawldly",
     images: [{ url: "/og/defaultogimage.webp" }],
   },
   twitter: { card: "summary_large_image" },

@@ -3,8 +3,8 @@ import { SITE } from "@/lib/content";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Brawledly",
-  description: "Brawledly terms of service — fan-made Brawl Stars puzzle site, not affiliated with Supercell.",
+  title: "Terms of Service | Brawldly",
+  description: "Brawldly terms of service — fan-made Brawl Stars puzzle site, not affiliated with Supercell.",
   alternates: { canonical: `${SITE.url}/terms-of-service` },
 };
 
@@ -13,56 +13,223 @@ export default function TermsPage() {
     <div className="min-h-screen w-full min-w-0 max-w-full bg-gray-950">
       <main className="max-w-2xl mx-auto px-4 py-12 text-white">
         <Header />
-      <h1 className="text-3xl font-bold mb-2 text-yellow-400 font-title">Terms of Service</h1>
-      <p className="text-white/40 text-sm mb-8">Last updated: March 2026</p>
+        <h1 className="text-3xl font-bold mb-2 text-yellow-400 font-title">
+          Terms of Service
+        </h1>
+        <p className="text-white/40 text-sm mb-8">Last Updated: 22.03.2026</p>
 
-      <div className="space-y-6 text-white/70 leading-relaxed text-sm">
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">Acceptance</h2>
-          <p>By using Brawledly, you agree to these terms. If you do not agree, please stop using the site.</p>
-        </section>
+        <div className="space-y-6 text-white/70 leading-relaxed text-sm">
+          <section>
+            <p>
+              Welcome to {SITE.name} (&quot;Website,&quot; &quot;we,&quot;
+              &quot;us,&quot; or &quot;our&quot;). These Terms of Service
+              (&quot;Terms&quot;) govern your access to and use of our Website
+              and the browser-based games made available through it.
+            </p>
+            <p className="mt-4">
+              By accessing or using the Website, you agree to be bound by these
+              Terms. If you do not agree to these Terms, you must discontinue
+              use immediately.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">Fan Content Disclaimer</h2>
-          <p>
-            Brawledly is unofficial fan content. It is not affiliated with, endorsed, sponsored, or specifically approved by Supercell. Brawl Stars content and materials are trademarks and copyrights of Supercell.
-          </p>
-          <p className="mt-2">
-            This site operates under the{" "}
-            <a href="https://supercell.com/en/fan-content-policy/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Supercell Fan Content Policy</a>.
-          </p>
-        </section>
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              1. Description of Service
+            </h2>
+            <p>
+              The Website provides free-to-play, browser-based games for
+              entertainment purposes. These may include word-based games, puzzle
+              games, and other casual games.
+            </p>
+            <p className="mt-2">
+              We reserve the right to modify, suspend, or discontinue any part of
+              the Website at any time without prior notice.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">Use of Service</h2>
-          <p>Brawledly is provided free of charge for personal, non-commercial use. You may not:</p>
-          <ul className="list-disc list-inside mt-2 space-y-1">
-            <li>Scrape or automate access to the site</li>
-            <li>Use the site for any commercial purpose</li>
-            <li>Attempt to reverse-engineer or exploit the game logic</li>
-          </ul>
-        </section>
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              2. Unofficial Fan Content Disclaimer
+            </h2>
+            <p>
+              {SITE.name} is not affiliated with, endorsed, sponsored, or
+              approved by Supercell Oy. Brawl Stars and all related trademarks,
+              logos, and intellectual property are the property of Supercell Oy.
+              This Website complies with the Supercell Fan Content Policy. Any
+              content displayed remains the property of its respective owners.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">No Warranties</h2>
-          <p>
-            Brawledly is provided &quot;as is&quot; without any warranty. We make no guarantees about uptime, accuracy of game data, or continuity of service. Puzzle content may change or be updated at any time.
-          </p>
-        </section>
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              3. Eligibility
+            </h2>
+            <p>
+              You must be at least 13 years old (or the minimum legal age in
+              your jurisdiction) to use this Website.
+            </p>
+            <p className="mt-2">
+              By using the Website, you represent that you meet this requirement.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">Changes to Terms</h2>
-          <p>We may update these terms at any time. Continued use of the site constitutes acceptance of the updated terms.</p>
-        </section>
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              4. Acceptable Use
+            </h2>
+            <p>You agree not to:</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>Use the Website for any unlawful purpose.</li>
+              <li>
+                Attempt to disrupt or interfere with the Website&apos;s
+                functionality.
+              </li>
+              <li>
+                Reverse engineer, copy, or redistribute Website content without
+                permission.
+              </li>
+              <li>
+                Use automated scripts, bots, or scraping tools to extract data.
+              </li>
+              <li>
+                Attempt to gain unauthorized access to any part of the Website.
+              </li>
+            </ul>
+            <p className="mt-2">
+              We reserve the right to restrict or block access to users who
+              violate these Terms.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-white/90 font-semibold text-base mb-2">Contact</h2>
-          <p>
-            Questions? Email{" "}
-            <a href={`mailto:${SITE.contactEmail}`} className="text-yellow-400 hover:text-yellow-300 underline">{SITE.contactEmail}</a>.
-          </p>
-        </section>
-      </div>
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              5. Intellectual Property
+            </h2>
+            <p>
+              Unless otherwise stated, all original content on this Website
+              (including game design, layout, graphics, text, and code) is
+              owned by or licensed to us and is protected under applicable
+              intellectual property laws.
+            </p>
+            <p className="mt-2">
+              You may not reproduce, distribute, modify, or create derivative
+              works from Website content without prior written permission.
+            </p>
+            <p className="mt-2">
+              Third-party trademarks and content remain the property of their
+              respective owners.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              6. Privacy
+            </h2>
+            <p>We do not require user registration.</p>
+            <p className="mt-2">
+              However, certain technical data (such as IP address, browser type,
+              and server logs) may be automatically processed for security and
+              operational purposes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              7. Disclaimer of Warranties
+            </h2>
+            <p>
+              The Website and all games are provided &quot;AS IS&quot; and
+              &quot;AS AVAILABLE&quot; without warranties of any kind, either
+              express or implied.
+            </p>
+            <p className="mt-2">We do not guarantee that:</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>The Website will be uninterrupted or error-free.</li>
+              <li>Games will function without bugs or defects.</li>
+              <li>
+                The Website will be secure or free from harmful components.
+              </li>
+              <li>
+                Game progress, scores, or data will be preserved. Such data may
+                be lost or reset at any time.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              8. Limitation of Liability
+            </h2>
+            <p>
+              To the maximum extent permitted by law, we shall not be liable for
+              any indirect, incidental, special, consequential, or punitive
+              damages arising out of or related to your use of the Website.
+            </p>
+            <p className="mt-2">This includes, but is not limited to:</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>Loss of data</li>
+              <li>Loss of access</li>
+              <li>Technical issues</li>
+              <li>Gameplay interruptions</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              9. Changes to These Terms
+            </h2>
+            <p>
+              We may update these Terms at any time. Continued use of the
+              Website constitutes acceptance of changes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              10. Termination
+            </h2>
+            <p>
+              We reserve the right to suspend or terminate access to the Website
+              at our discretion, without notice, for conduct that violates these
+              Terms or is otherwise harmful.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              11. Governing Law
+            </h2>
+            <p>
+              These Terms shall be governed by and construed in accordance with
+              the laws of the jurisdiction in which the Website operator is
+              established, without regard to conflict of law principles.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-white/90 font-semibold text-base mb-2">
+              12. Contact
+            </h2>
+            <p>If you have questions about these Terms, you may contact us at:</p>
+            <p className="mt-2">
+              Email:{" "}
+              <a
+                href={`mailto:${SITE.contactEmail}`}
+                className="text-yellow-400 hover:text-yellow-300 underline"
+              >
+                {SITE.contactEmail}
+              </a>
+            </p>
+          </section>
+
+          <section>
+            <p>
+              By using this Website, you acknowledge that you have read,
+              understood, and agree to these Terms of Service.
+            </p>
+          </section>
+        </div>
       </main>
     </div>
   );

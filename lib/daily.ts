@@ -2,7 +2,7 @@
 
 export type DailyGameSlug = "classic" | "pixel" | "gadget" | "hypercharge" | "ultimate-challenge";
 export const DAILY_GAME_SLUGS: DailyGameSlug[] = ["classic", "pixel", "gadget", "hypercharge"];
-export const DAILY_PROGRESS_UPDATE_EVENT = "brawledly-daily-progress-update";
+export const DAILY_PROGRESS_UPDATE_EVENT = "brawldly-daily-progress-update";
 
 // ── UTC date utils ──────────────────────────────────────────────────────────
 export function getUTCDateString(date?: Date): string {
@@ -13,7 +13,7 @@ export function getUTCDateString(date?: Date): string {
   return `${y}-${m}-${day}`;
 }
 
-const DEV_DAY_KEY = "brawledly_dev_day_key";
+const DEV_DAY_KEY = "brawldly_dev_day_key";
 
 export function getDayKey(): string {
   if (typeof window !== "undefined" && window.location.hostname === "localhost") {
@@ -54,7 +54,7 @@ export function getDailySecretFromPool<T>(pool: T[], gameSlug: string, dayKey: s
 }
 
 // ── Played today ─────────────────────────────────────────────────────────────
-const PLAYED_KEY = "brawledly_daily_played";
+const PLAYED_KEY = "brawldly_daily_played";
 
 export function hasPlayedToday(gameSlug: string): boolean {
   try {
@@ -78,7 +78,7 @@ export function markPlayedToday(gameSlug: string): void {
 
 // ── Game state persistence ───────────────────────────────────────────────────
 function stateKey(slug: string, dayKey: string) {
-  return `brawledly_daily_state_${slug}_${dayKey}`;
+  return `brawldly_daily_state_${slug}_${dayKey}`;
 }
 
 export function getPersistedGameState<T>(slug: string, dayKey: string): T | null {

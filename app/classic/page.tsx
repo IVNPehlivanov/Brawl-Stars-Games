@@ -10,15 +10,15 @@ import Link from "next/link";
 const SLUG = "classic";
 
 export const metadata: Metadata = {
-  title: "Brawl Stars Wordle | Guess the Daily Brawler | Brawledly",
+  title: "Brawl Stars Wordle | Guess the Daily Brawler | Brawldly",
   description: "Guess today's mystery Brawl Stars brawler from stat clues. Daily Wordle-style game — free, no login. Rarity, class, speed, and more.",
-  keywords: ["brawl stars wordle", "guess the brawler", "brawledly", "brawl stars game"],
+  keywords: ["brawl stars wordle", "guess the brawler", "brawldly", "brawl stars game"],
   alternates: { canonical: `${SITE.url}/${SLUG}` },
   openGraph: {
-    title: "Brawl Stars Wordle | Brawledly",
+    title: "Brawl Stars Wordle | Brawldly",
     description: "Guess the daily Brawl Stars brawler from stat clues. Free, no login.",
     url: `${SITE.url}/${SLUG}`,
-    siteName: "Brawledly",
+    siteName: "Brawldly",
     images: [{ url: "/og/defaultogimage.webp" }],
   },
   twitter: { card: "summary_large_image" },
@@ -63,7 +63,7 @@ export default function ClassicPage() {
 
         <div>
           <h2 className="text-white/80 font-semibold text-base mb-2">About Brawl Stars Wordle</h2>
-          <p>Brawledly&apos;s Classic mode is the Brawl Stars equivalent of the original Wordle — but instead of letters, you&apos;re matching brawler stats. It tests your knowledge of every brawler&apos;s rarity, movement class, and release history.</p>
+          <p>Brawldly&apos;s Classic mode is the Brawl Stars equivalent of the original Wordle — but instead of letters, you&apos;re matching brawler stats. It tests your knowledge of every brawler&apos;s rarity, movement class, and release history.</p>
         </div>
 
         <div>

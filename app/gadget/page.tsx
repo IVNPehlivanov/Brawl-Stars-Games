@@ -10,15 +10,15 @@ import Link from "next/link";
 const SLUG = "gadget";
 
 export const metadata: Metadata = {
-  title: "Guess the Gadget | Daily Brawl Stars Gadget Quiz | Brawledly",
+  title: "Guess the Gadget | Daily Brawl Stars Gadget Quiz | Brawldly",
   description: "Read the gadget description and guess which Brawl Stars brawler it belongs to. Daily quiz — free, no login required.",
-  keywords: ["brawl stars gadget quiz", "guess the gadget brawl stars", "brawledly gadget"],
+  keywords: ["brawl stars gadget quiz", "guess the gadget brawl stars", "brawldly gadget"],
   alternates: { canonical: `${SITE.url}/${SLUG}` },
   openGraph: {
-    title: "Guess the Gadget | Brawledly",
+    title: "Guess the Gadget | Brawldly",
     description: "Read the gadget description and guess which brawler it belongs to.",
     url: `${SITE.url}/${SLUG}`,
-    siteName: "Brawledly",
+    siteName: "Brawldly",
     images: [{ url: "/og/defaultogimage.webp" }],
   },
   twitter: { card: "summary_large_image" },

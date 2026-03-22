@@ -31,7 +31,7 @@ const ROOT = path.join(__dirname, "..");
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
     const mod = url.startsWith("https") ? https : http;
-    mod.get(url, { headers: { "User-Agent": "brawledly-data-gen/1.0" } }, (res) => {
+    mod.get(url, { headers: { "User-Agent": "brawldly-data-gen/1.0" } }, (res) => {
       let data = "";
       res.on("data", (c) => (data += c));
       res.on("end", () => {
@@ -46,7 +46,7 @@ function downloadFile(url, destPath) {
   return new Promise((resolve) => {
     const mod = url.startsWith("https") ? https : http;
     const file = fs.createWriteStream(destPath);
-    mod.get(url, { headers: { "User-Agent": "brawledly-data-gen/1.0" } }, (res) => {
+    mod.get(url, { headers: { "User-Agent": "brawldly-data-gen/1.0" } }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
         file.close();
         fs.unlink(destPath, () => {});

@@ -24,9 +24,9 @@ export default function Footer() {
       {showFullFooter ? (
         <div className="grid w-full min-w-0 grid-cols-1 gap-10 text-left md:grid-cols-[minmax(0,min(100%,32rem))_auto] md:justify-center md:gap-x-12 md:gap-y-0 md:items-start">
           <div className="min-w-0 font-brawl">
-            <p className="text-white text-xl md:text-2xl mb-3">Brawledly</p>
+            <p className="text-white text-xl md:text-2xl mb-3">Brawldly</p>
             <p className="text-sm md:text-base text-white leading-relaxed">
-              Brawledly offers daily and endless browser-based guessing games where you can test your knowledge of Brawl Stars. Play Wordle-style puzzles, try Higher-or-Lower, and track your scores.
+              Brawldly offers daily and endless browser-based guessing games where you can test your knowledge of Brawl Stars. Play Wordle-style puzzles, try Higher-or-Lower, and track your scores.
             </p>
             <a
               href={`mailto:${SITE.contactEmail}`}
@@ -71,7 +71,7 @@ export default function Footer() {
 
       {/* REQUIRED: Supercell fan content disclaimer — DO NOT REMOVE */}
       <div className="mt-8 pt-4 text-xs text-center text-white">
-        <p className="text-white">© {new Date().getFullYear()} Brawledly. All rights reserved.</p>
+        <p className="text-white">© {new Date().getFullYear()} Brawldly. All rights reserved.</p>
         <p className="mt-3 max-w-2xl mx-auto">
           This material is unofficial and is not endorsed by Supercell. For more information see{" "}
           <a

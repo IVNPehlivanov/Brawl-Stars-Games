@@ -1,8 +1,8 @@
-# Brawledly SEO Skill
+# Brawldly SEO Skill
 ## How to beat royaledle.com and dominate Brawl Stars search
 
 This skill defines the SEO rules, priorities, and patterns to follow in every
-conversation about brawledly.com.
+conversation about brawldly.com.
 
 ---
 
@@ -23,15 +23,15 @@ conversation about brawledly.com.
 ## Rules for Every Page
 
 ### Titles
-- Format: `[Game-Specific Keyword] | [Secondary Keyword] | Brawledly`
+- Format: `[Game-Specific Keyword] | [Secondary Keyword] | Brawldly`
 - Must include the specific game mode name + a natural keyword
 - 50–60 characters max
-- Example: `Brawl Stars Wordle | Guess the Daily Brawler | Brawledly`
+- Example: `Brawl Stars Wordle | Guess the Daily Brawler | Brawldly`
 
 ### Meta Descriptions
 - Must be unique per page — no copy-paste from other pages
 - 140–160 characters
-- Must mention: the specific game mode, a key mechanic, and "Brawledly"
+- Must mention: the specific game mode, a key mechanic, and "Brawldly"
 - Must include a soft call to action ("Play", "Guess", "Test your knowledge")
 
 ### Heading Structure (CRITICAL)
@@ -56,12 +56,12 @@ Every page must have in its metadata:
 ### Schema JSON-LD (competitor has NONE — this is our biggest advantage to build)
 Every game page must have:
 ```json
-{ "@type": "WebApplication", "name": "[Game Name]", "url": "https://brawledly.com/[slug]",
+{ "@type": "WebApplication", "name": "[Game Name]", "url": "https://brawldly.com/[slug]",
   "applicationCategory": "GameApplication", "operatingSystem": "Web Browser",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" } }
 { "@type": "BreadcrumbList", "itemListElement": [
-  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://brawledly.com" },
-  { "@type": "ListItem", "position": 2, "name": "[Game Name]", "item": "https://brawledly.com/[slug]" }
+  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://brawldly.com" },
+  { "@type": "ListItem", "position": 2, "name": "[Game Name]", "item": "https://brawldly.com/[slug]" }
 ]}
 ```
 Use `components/seo/GameSchema.tsx` — it already handles all of this.
@@ -109,7 +109,7 @@ This content must be in `page.tsx` (server component), NOT inside `*Game.tsx` (c
 
 ## Page-Level Checklist (run before every new page goes live)
 
-- [ ] Unique `<title>` with game keyword + secondary keyword + "Brawledly"
+- [ ] Unique `<title>` with game keyword + secondary keyword + "Brawldly"
 - [ ] Unique `<meta description>` 140–160 chars, game-specific
 - [ ] Exactly ONE `<h1>` matching the title keyword
 - [ ] `<h2>` for game mechanic (second headline)

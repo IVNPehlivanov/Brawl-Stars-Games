@@ -18,8 +18,8 @@ export default function StreakBadge() {
         setTimeout(() => setFlash(false), 600);
       });
     };
-    window.addEventListener("brawledly-streak-update", handler);
-    return () => window.removeEventListener("brawledly-streak-update", handler);
+    window.addEventListener("brawldly-streak-update", handler);
+    return () => window.removeEventListener("brawldly-streak-update", handler);
   }, []);
 
   if (!record || record.streak === 0) return null;

@@ -95,11 +95,11 @@ export default function DailyGameGuard({ slug }: Props) {
                 clearPersistedGameState(slug, dayKey);
                 // Remove from played
                 try {
-                  const raw = localStorage.getItem("brawledly_daily_played");
+                  const raw = localStorage.getItem("brawldly_daily_played");
                   const data: Record<string, string[]> = raw ? JSON.parse(raw) : {};
                   if (data[dayKey]) {
                     data[dayKey] = data[dayKey].filter((s) => s !== slug);
-                    localStorage.setItem("brawledly_daily_played", JSON.stringify(data));
+                    localStorage.setItem("brawldly_daily_played", JSON.stringify(data));
                   }
                 } catch { /* ignore */ }
                 window.location.reload();

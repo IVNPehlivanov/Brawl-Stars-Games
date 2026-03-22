@@ -1,7 +1,7 @@
-# Brawledly — Claude Context
+# Brawldly — Claude Context
 
 ## What This Project Is
-Brawledly (brawledly.com) is an unofficial Brawl Stars fan site with 5 Wordle-style daily puzzle and endless mini-games. No accounts, no server — all game state lives in localStorage. Daily brawlers are seeded deterministically by UTC date + game slug.
+Brawldly (brawldly.com) is an unofficial Brawl Stars fan site with 5 Wordle-style daily puzzle and endless mini-games. No accounts, no server — all game state lives in localStorage. Daily brawlers are seeded deterministically by UTC date + game slug.
 
 ## Tech Stack
 | Layer | Technology |
@@ -64,7 +64,7 @@ brawl-puzzle/
 - **Unofficial fan content** — footer must always include Supercell disclaimer. Never remove it.
 - **No accounts / no backend** — all state (played today, streak, game progress) is in `localStorage`. Do not introduce server-side state or auth.
 - **Daily seed logic** — `lib/daily.ts` uses `dayKey + "_" + gameSlug` as seed. Changing this string changes every user's daily brawler. Be careful.
-- **localStorage prefix is `brawledly_`** — never use `royaledly_` or any other prefix.
+- **localStorage prefix is `brawldly_`** — never use `royaledly_` or any other prefix.
 - **`GameSchema` must be used on every game page** — import from `components/seo/GameSchema.tsx`.
 - **One `<h1>` per game page** — the second headline must be `<h2>`, not a second `<h1>`. No double-H1.
 - **All brawler image paths**: `/Brawlers/{Key-With-Dashes}.webp` — underscore keys become dash filenames (e.g. `el_primo` → `El-Primo.webp`).
@@ -72,9 +72,9 @@ brawl-puzzle/
 ## Environment Variables
 | Var | Default | Purpose |
 |-----|---------|---------|
-| `NEXT_PUBLIC_SITE_URL` | `https://brawledly.com` | Canonical URL for metadata + sitemap |
-| `NEXT_PUBLIC_SITE_NAME` | `Brawledly` | Site name in OG tags |
-| `NEXT_PUBLIC_CONTACT_EMAIL` | `contact@brawledly.com` | Used in footer/privacy |
+| `NEXT_PUBLIC_SITE_URL` | `https://brawldly.com` | Canonical URL for metadata + sitemap |
+| `NEXT_PUBLIC_SITE_NAME` | `Brawldly` | Site name in OG tags |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | `contact@brawldly.com` | Used in footer/privacy |
 
 ## SEO Status
 - See `.claude/skills/SEO_SKILL.md` for all SEO rules
@@ -82,7 +82,7 @@ brawl-puzzle/
 - Top 3 open SEO tasks: add `og:image`, use `GameSchema` on all game pages, add `llms.txt`
 
 ## What's Being Worked On
-**Primary goal: launch Brawledly and achieve SEO parity with (then surpass) royaledle.com.**
+**Primary goal: launch Brawldly and achieve SEO parity with (then surpass) royaledle.com.**
 
 **Active focus areas:**
 1. Initial project setup — get all pages rendering with correct data
@@ -90,6 +90,9 @@ brawl-puzzle/
 3. Critical SEO: og:image, GameSchema on all pages, llms.txt
 
 ## Completed Tasks
+- [x] Privacy Policy: standard six-section template (Brawldly / SITE.contactEmail only)
+- [x] Rebrand to Brawldly (display name, domain, email, `brawldly_` localStorage prefix)
+- [x] Terms of Service: full legal copy (Brawldly, Brawl Stars / Supercell disclaimer, SITE.contactEmail)
 - [x] HomeInfographic: game tile logos match center logo size (shared dimensions + SVG scale)
 - [x] Initial scaffold created (BRAWL_SCAFFOLD.md)
 - [x] All project files created from scaffold spec

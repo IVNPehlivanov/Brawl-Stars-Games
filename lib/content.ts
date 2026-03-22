@@ -1,7 +1,7 @@
 export const SITE = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://brawledly.com",
-  name: process.env.NEXT_PUBLIC_SITE_NAME ?? "Brawledly",
-  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@brawledly.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://brawldly.com",
+  name: process.env.NEXT_PUBLIC_SITE_NAME ?? "Brawldly",
+  contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@brawldly.com",
 };
 
 export type GameMetaItem = {

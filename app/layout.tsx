@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { template: "%s | Brawledly", default: "Brawledly — Daily Brawl Stars Wordle Games" },
+  title: { template: "%s | Brawldly", default: "Brawldly — Daily Brawl Stars Wordle Games" },
   description: "Play daily Wordle-style Brawl Stars mini-games. Guess the Brawler, Gadget, Hypercharge, and more — free, no login required.",
   openGraph: {
     siteName: SITE.name,

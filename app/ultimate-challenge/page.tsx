@@ -11,15 +11,15 @@ const UltimateChallengeGame = dynamic(() => import("./UltimateChallengeGame"), {
 const SLUG = "ultimate-challenge";
 
 export const metadata: Metadata = {
-  title: "Ultimate Challenge | All 4 Brawl Stars Modes in One | Brawledly",
+  title: "Ultimate Challenge | All 4 Brawl Stars Modes in One | Brawldly",
   description: "The ultimate Brawl Stars quiz: all 4 game modes combined, one brawler, 25 attempts. Endless mode — play any time, no daily limit.",
-  keywords: ["brawl stars ultimate challenge", "brawledly ultimate", "brawl stars all modes"],
+  keywords: ["brawl stars ultimate challenge", "brawldly ultimate", "brawl stars all modes"],
   alternates: { canonical: `${SITE.url}/${SLUG}` },
   openGraph: {
-    title: "Ultimate Challenge | Brawledly",
+    title: "Ultimate Challenge | Brawldly",
     description: "All 4 modes combined — one brawler, 25 attempts. Endless mode.",
     url: `${SITE.url}/${SLUG}`,
-    siteName: "Brawledly",
+    siteName: "Brawldly",
     images: [{ url: "/og/defaultogimage.webp" }],
   },
   twitter: { card: "summary_large_image" },
@@ -62,7 +62,7 @@ export default function UltimateChallengePage() {
 
         <div>
           <h2 className="text-white/80 font-semibold text-base mb-2">About Ultimate Challenge</h2>
-          <p>Ultimate Challenge is the hardest mode on Brawledly. It combines all four daily puzzle types into a single run against one target brawler. Only the most knowledgeable Brawl Stars fans can solve all 4 modes in one attempt.</p>
+          <p>Ultimate Challenge is the hardest mode on Brawldly. It combines all four daily puzzle types into a single run against one target brawler. Only the most knowledgeable Brawl Stars fans can solve all 4 modes in one attempt.</p>
         </div>
 
         <div>

@@ -10,15 +10,15 @@ import Link from "next/link";
 const SLUG = "hypercharge";
 
 export const metadata: Metadata = {
-  title: "Hypercharge Game | Guess the Brawler by Hypercharge | Brawledly",
+  title: "Hypercharge Game | Guess the Brawler by Hypercharge | Brawldly",
   description: "Read the hypercharge ability description and guess which Brawl Stars brawler it belongs to. Daily quiz — free, no login.",
-  keywords: ["brawl stars hypercharge quiz", "guess brawler hypercharge", "brawledly hypercharge"],
+  keywords: ["brawl stars hypercharge quiz", "guess brawler hypercharge", "brawldly hypercharge"],
   alternates: { canonical: `${SITE.url}/${SLUG}` },
   openGraph: {
-    title: "Hypercharge | Brawledly",
+    title: "Hypercharge | Brawldly",
     description: "Read the hypercharge description and guess which brawler it belongs to.",
     url: `${SITE.url}/${SLUG}`,
-    siteName: "Brawledly",
+    siteName: "Brawldly",
     images: [{ url: "/og/defaultogimage.webp" }],
   },
   twitter: { card: "summary_large_image" },
